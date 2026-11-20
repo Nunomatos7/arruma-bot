@@ -1,0 +1,7 @@
+# Núcleo (todos os sistemas: macOS, Windows, Linux). Testado com Python 3.14, opencv 5.1 e numpy 2.5.
+opencv-python>=4.10
+numpy>=2.0
+# Só para gerar GIFs de demonstração (tools/demo.py)
+pillow>=10.0
+# Só macOS: ponte pela Replicação do iPhone (bot/iphone.py)
+pyobjc-framework-Quartz>=10.0; sys_platform == "darwin"

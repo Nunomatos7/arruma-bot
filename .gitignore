@@ -1,0 +1,17 @@
+# ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# gerado ao usar o bot (screenshots e gravações do telemóvel, registos de cada jogo)
+runs/
+shots/
+rec/
+
+# WebDriverAgent descarregado e compilado com a tua conta Apple (tools/setup_wda.py)
+vendor/
+
+# sistema / editores
+.DS_Store
+.claude/
+*_plano.png
